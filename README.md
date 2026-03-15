@@ -9,6 +9,7 @@ It simplifies the complaint process by allowing users to submit reports, attach 
 The goal of the system is to encourage reporting, improve response time, and promote safer environments.
 
 ✨ Features
+
 👤 User Features
 
 🔹 Submit Harassment Reports
@@ -46,8 +47,8 @@ Manage users and their submitted reports.
 🧑‍💻 Technology Stack
 🎨 Frontend
 
-HTML
-CSS
+HTML/
+CSS/
 JavaScript
 
 ⚙️ Backend
