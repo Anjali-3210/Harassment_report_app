@@ -1,0 +1,19 @@
+import sqlite3
+
+db = sqlite3.connect("database.db")
+cur = db.cursor()
+
+cur.execute("""
+CREATE TABLE reports (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    report_id TEXT,
+    category TEXT,
+    description TEXT,
+    file_name TEXT,
+    status TEXT
+)
+""")
+
+db.commit()
+db.close()
+print("Database created successfully")
